@@ -1,5 +1,8 @@
 <?php
 
+
+require __DIR__.  '/bootstrap.php';
+
 // Get URI
 $URI =  parse_url($_SERVER['REQUEST_URI'], PHP_URL_PATH);
 
